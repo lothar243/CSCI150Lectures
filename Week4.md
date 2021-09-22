@@ -119,7 +119,6 @@ Common formatting specifications
 [YouTube - Computer Science - If Statements - 6:31](https://www.youtube.com/watch?v=CF38ghVEywQ)
 
 Do one thing under these conditions, otherwise do this other thing
-what happens if the value changes midway through?
 
 If x  < 10, print “it was smaller than 10”, x = 11, else print “it was at least 10”
 
@@ -154,16 +153,18 @@ elif:
 pudb3 computeLatePenalty-elifExample.py
 ```
 
+what happens if the value changes midway through?
+
+```shell
+pudb3 changeMidway.py
+```
 
 ## 4.3 - More if-else
 
 Multiple if statements can each evaluate independently
 
-```python
-car_age = int(input("How old is the car (in years)"))
-if car_age >= 20 then you can get permanent registration
-if car_age < 4 then you are probably paying for it still
-if car_age > 10 then it has lost most most of its initial value but won’t decrease much further
+```shell
+pudb3 carAge.py
 ```
 
 ## 4.4 - Equality and Relational Operators
@@ -180,3 +181,4 @@ boolean - two values: True and False
 
 * or
 
+We'll see more of 'and' and 'or' next time
