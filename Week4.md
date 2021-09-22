@@ -1,4 +1,4 @@
-[YouTube - Computer Science - ASCII and Unicode Character Sets](https://www.youtube.com/watch?v=I-pQH_krD0M)
+[YouTube - Computer Science - ASCII and Unicode Character Sets - 12:48](https://www.youtube.com/watch?v=I-pQH_krD0M)
 
 # Module 4 Section 1
 
@@ -116,7 +116,7 @@ Common formatting specifications
 # Module 4 Section 2 - Branching
 
 ## 4.1 – If-else branches
-[YouTube - Computer Science - If Statements](https://www.youtube.com/watch?v=CF38ghVEywQ)
+[YouTube - Computer Science - If Statements - 6:31](https://www.youtube.com/watch?v=CF38ghVEywQ)
 
 Do one thing under these conditions, otherwise do this other thing
 what happens if the value changes midway through?
@@ -168,7 +168,7 @@ if car_age > 10 then it has lost most most of its initial value but won’t decr
 
 ## 4.4 - Equality and Relational Operators
 
-[YouTube - Computer Science - Relational Operators](https://www.youtube.com/watch?v=A9GbS1ZL_OE)
+[YouTube - Computer Science - Relational Operators - 5:21](https://www.youtube.com/watch?v=A9GbS1ZL_OE)
 
 boolean - two values: True and False
 
@@ -180,10 +180,3 @@ boolean - two values: True and False
 
 * or
 
-#### Nested if statements
-
-[Youtube - Computer Science - Nested If Statements](https://www.youtube.com/watch?v=VGsuGhBPD4s)
-
-```shell
-pudb3 priceIsRight-nestedIfs_and_elifs.py
-```
