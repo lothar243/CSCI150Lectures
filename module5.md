@@ -17,6 +17,14 @@ How to test if x is outside of this range?
 
 boolean can take on two values, True or False (note the capitalization)
 
+Examine the following
+
+```shell
+python3 logic_operators.py
+```
+
+
+
 ## 4.6 Detecting ranges with gaps
 
 If it's the weekend or after 5, we can relax
@@ -34,3 +42,37 @@ python3 relax-multiple_ifs.py
 ```shell
 pudb3 priceIsRight-nestedIfs_and_elifs.py
 ```
+
+Example of basic image processing
+
+```shell
+python3 imageEditing.py
+```
+
+# Module 5 Section 2
+
+min, max, sum functions
+
+Show image manipulation with the PIL module
+
+```shell
+vim imageEditing.py
+```
+
+## Section 2 Branching
+
+The `in` and `not in` operators
+
+### 4.8 - Comparing data types and common errors
+
+### 4.9 - Membership and identity operators
+
+### 4.10 - Order of evaluation
+
+### 4.11 - Code blocks and indentation
+
+## Section 2 Labs
+
+### 4.15 Golf Scores
+
+### 4.16 - Leap year
