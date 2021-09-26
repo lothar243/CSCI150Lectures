@@ -1,3 +1,9 @@
+[YouTube - Socratica - Arithmetic in Python3 (4:39)](https://www.youtube.com/watch?v=Aj8FQRIHJSc)
+
+
+
+More advanced... [YouTube - Socratica - Python Dictionary (6:08)](https://www.youtube.com/watch?v=XCcpzWs-CI4)
+
 # Data types
 
 ## Strings
@@ -10,6 +16,8 @@ What are they? - sequence of characters
 * index
 
 ## Lists
+
+[YouTube - Socratica - Python Lists (5:43)](https://www.youtube.com/watch?v=ohCDWZgNIU0)
 
 What are they? - sequence of objects, mutable
 
@@ -25,6 +33,8 @@ What are they? - sequence of objects, mutable
 
 ## Tuple
 
+[YouTube - Socratica - Python Tuples (7:43)](https://www.youtube.com/watch?v=NI26dqhs2Rk)
+
 What are they? - sequence of objects, immutable
 
 ### methods
@@ -35,7 +45,7 @@ can cast between list and tuple easily
 
 ## set
 
-What are they? - collection of objects, mutable, no order
+[YouTube - Socratica - Sets in Python (6:33)](https://www.youtube.com/watch?v=sBvaPopWOmQ)What are they? - collection of objects, mutable, no order
 
 ### methods
 
@@ -57,3 +67,4 @@ What are they? - An association from keys -> values, mutable, no order
 * pop(key)
 * assignment
 * len
+
