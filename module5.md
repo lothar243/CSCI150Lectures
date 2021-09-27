@@ -48,12 +48,6 @@ python3 relax-multiple_ifs.py
 pudb3 priceIsRight-nestedIfs_and_elifs.py
 ```
 
-Example of basic image processing
-
-```shell
-python3 imageEditing.py
-```
-
 # Module 5 Section 2
 
 min, max, sum functions
