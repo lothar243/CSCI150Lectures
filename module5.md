@@ -52,15 +52,21 @@ pudb3 priceIsRight-nestedIfs_and_elifs.py
 
 min, max, sum functions
 
-Show image manipulation with the PIL module
-
-```shell
-vim imageEditing.py
-```
-
 ## Section 2 Branching
 
 ### 4.8 - Comparing data types and common errors
+
+Floating point rounding error
+
+```python3
+3 * 1.2
+```
+
+Don't compare floating point numbers with ==, instead use a small range
+
+What does it mean to compare 'a' < 'd'? How about `'abc' < 'ABC' `?
+
+`ord('a')` and `ord('A')`
 
 ### 4.9 - Membership and identity operators
 
@@ -73,13 +79,15 @@ mylist = [1, 2, 'a', 'qwer']
 'a' not in mylist
 'q' in mylist
 'qwer' in mylist
-w in 'qwer'
+'w' in 'qwer'
+'w' in mylist
 ```
 
 Pre-made example:
 
 ```shell
 python3 menuitems.py
+python3 menuitemsprices.py
 ```
 
 The `is` and `is not` operators - checks to see if two things are the same object
@@ -97,8 +105,6 @@ mylist2
 mylist3
 ```
 
-
-
 ### 4.10 - Order of evaluation
 
 [YouTube - Appficial - Python Order of Operations - (2:52)](https://www.youtube.com/watch?v=fmD0ZAi8SFk)
@@ -110,3 +116,14 @@ mylist3
 ### 4.15 Golf Scores
 
 ### 4.16 - Leap year
+
+Reminder: `year_num % 4 == 0` is true when `year_num` is divisible by 4
+
+### Additional content
+
+Show image manipulation with the PIL module
+
+```shell
+vim imageEditing.py
+```
+
