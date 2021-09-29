@@ -83,6 +83,20 @@ mylist = [1, 2, 'a', 'qwer']
 'w' in mylist
 ```
 
+```python3
+class_to_roomnum = {
+"csci150":"mc227",
+"m090":"mc235", 
+"csci240":"mc025"
+}
+print(class_to_roomnum["csci150"])
+'m090' in class_to_roomnum
+'m090' in class_to_roomnum.keys()
+'mc235' in class_to_roomnum
+'mc235' in class_to_roomnum.values()
+class_to_roomnum.keys()	  # also view .values(), and .items()
+```
+
 Pre-made example:
 
 ```shell
