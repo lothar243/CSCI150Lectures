@@ -1,0 +1,1 @@
+[YouTube - Socratica - Hello World (2:46)](https://www.youtube.com/watch?v=KOdfpbnWLVo)
