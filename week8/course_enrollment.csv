@@ -1,0 +1,9 @@
+Course,CourseDate,CustomerLastName,CustomerFirstName,Phone,Fee,AmountPaid,AmountDue
+Adv Pastels,10/01/19,Jackson,Charles,360-789-3456,$500.00,$500.00,$0.00
+Adv Pastels,10/01/19,Johnson,Ariel,206-567-1234,$500.00,$250.00,$250.00
+Adv Pastels,10/01/19,Pearson,Jeffery,206-567-2345,$500.00,$500.00,$0.00
+Adv Pastels,11/15/19,Kyle,Leah,425-678-7654,$500.00,$250.00,$250.00
+Beg Oils,09/15/19,Green,Robin,425-678-8765,$350.00,$350.00,$0.00
+Beg Oils,09/15/19,Sears,Miguel,360-789-4567,$350.00,$350.00,$0.00
+Beg Oils,10/15/19,Myers,Lynda,360-789-5678,$350.00,$0.00,$350.00
+Int Pastels,03/15/19,Johnson,Ariel,206-567-1234,$350.00,$350.00,$0.00
