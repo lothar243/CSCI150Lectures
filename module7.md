@@ -55,13 +55,13 @@ loopDict.py
 loopSet.py
 ```
 
-You can instruct Python to loop through the container in a particular order by using `.sorted()` or `.reversed()`
+You can instruct Python to loop through the container in a particular order by using `sorted(my_iterable)` or `reversed(my_iterable)`
 
 ```bash
 vim loopSortedSet.py
 ```
 
-This is in addition to the ability to sort lists, but it doesn't change the order of the original item
+This is in addition to the ability to sort lists with `mylist.sort()`, but it doesn't change the order of the original item
 
 You can generate a sequence of numbers using the `range()` function
 
@@ -83,3 +83,20 @@ Iterating through something a predictable number of times, or through every elem
 Iterating an unknown number of times, or until the user gives a particular input -> while loops
 
 In reality, either of these could work for either situation, but tends to be the easiest and most clear
+
+Bonus methods for iterating
+
+For lists and tuples, If you want an index in addition to a value, use `enumerate`
+
+```python
+for index, element in enumerate(my_list):
+    print("{} is at index {}".format(element, index))
+```
+
+For dictionaries, use `.items()`
+
+```python
+for student, score in student_to_score.items():
+    print("{} received a score of {}".format(student, score))
+```
+
