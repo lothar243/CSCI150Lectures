@@ -39,3 +39,5 @@ myturtle.pencolor(120, 120, 0) # rgb designation
 help(turtle) # look at begin_fill() and end_fill()
 ```
 
+[YouTube - TechCave - The Client Server Model (6:13)](https://www.youtube.com/watch?v=L5BlpPU_muY)
+
