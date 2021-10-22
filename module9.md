@@ -17,6 +17,17 @@ How can we calculate the amount we need to turn?
 * Create a 13-pointed star
 * Would this work for a 6-pointed star?
 
+Let's start drawing from a lower position
+
+```python
+turtle.goto(0, -300)
+```
+
+But it draws while it's traveling, so use `turtle.penup()` and `turtle.pendown()`
+
+Play around drawing a grid of shapes (nested for loops)
+
+
 [YouTube - TechCave - The Client Server Model (6:13)](https://www.youtube.com/watch?v=L5BlpPU_muY)
 
 ### Web Browser server/client
@@ -39,22 +50,6 @@ Now type in either one and observe the other
 
 # Module 9.2 - More Turtle graphics
 
-```python
-myscreen.bgcolor("red")
-myscreen.colormode(255) # black screen
-myturtle.pencolor(120, 120, 0) # rgb designation
-help(turtle) # look at begin_fill() and end_fill()
-```
-
-Let's start drawing from a lower position
-
-```python
-turtle.goto(0, -300)
-```
-
-But it draws while it's traveling, so use `turtle.penup()` and `turtle.pendown()`
-
-Play around drawing a grid of shapes (nested for loops)
 
 ### How to serve the web
 
@@ -66,7 +61,7 @@ Tags are nested together to create a hierarchy, telling the web browser what eve
 
 For more information about HTML, visit https://www.w3schools.com/html/default.asp
 
-These tags are placed in a text file, with an html extension
+These tags are placed in a text file, with an html extension - **Talk about how Windows hides file extensions**, and how to use notepad to manually choose an extension
 
 ```html
 <html>
@@ -98,3 +93,21 @@ Index.html is the default name that is served up, but you can change the name
 localhost:8000/stars.py
 
 localhost:8000/htmlStructure.png
+
+### Using netcat to listen
+
+You can see what is sent by the webclient when it navigates to a webpage
+
+Setup the server: `nc -nvlp 8888`
+
+Navigate to localhost:8888
+
+Lots of information is sent, but all that is really necessary is that first command, called GET
+
+### Using netcat to get a webpage
+
+Fire up your python webserver where your index.html is located: `python3 -m http.server`
+
+Use netcat as the client: `nc -nv 127.0.0.1 8000`
+
+The connection is established, but the web server doesn't know what you want, so type `GET / HTTP/1.1` and hit enter... The webpage is served
