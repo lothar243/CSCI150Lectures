@@ -4,11 +4,8 @@
 
 ```python
 myscreen = turtle.Screen()
-
 myscreen.exitonclick()
 ```
-
-
 
 How can we calculate the amount we need to turn?
 
@@ -20,15 +17,25 @@ How can we calculate the amount we need to turn?
 * Create a 13-pointed star
 * Would this work for a 6-pointed star?
 
-Let's start drawing from a lower position
+[YouTube - TechCave - The Client Server Model (6:13)](https://www.youtube.com/watch?v=L5BlpPU_muY)
 
-```python
-turtle.goto(0, -300)
-```
+### Web Browser server/client
 
-But it draws while it's traveling, so use `turtle.penup()` and `turtle.pendown()`
+Demonstration of ad-hoc server: nc -nvlp 8888
 
-Play around drawing a grid of shapes (nested for loops)
+Navigate to that system: localhost:8888
+
+You can view the information that is sent, and send a response. Reply with hello world!, then press Ctrl+c to terminate the connection
+
+### Two instances of netcat
+
+You can do it without a web browser, using two instances of netcat, one as the server, one as the client.
+
+Setup the server: nc -nvlp 8888
+
+Call with the client: nc -nv 127.0.0.1 8888
+
+Now type in either one and observe the other
 
 # Module 9.2 - More Turtle graphics
 
@@ -39,5 +46,55 @@ myturtle.pencolor(120, 120, 0) # rgb designation
 help(turtle) # look at begin_fill() and end_fill()
 ```
 
-[YouTube - TechCave - The Client Server Model (6:13)](https://www.youtube.com/watch?v=L5BlpPU_muY)
+Let's start drawing from a lower position
 
+```python
+turtle.goto(0, -300)
+```
+
+But it draws while it's traveling, so use `turtle.penup()` and `turtle.pendown()`
+
+Play around drawing a grid of shapes (nested for loops)
+
+### How to serve the web
+
+Webpages use a language called HTML (HyperText Markup Language) to indicate formatting
+
+Tags are nested together to create a hierarchy, telling the web browser what everything should be.
+
+![Html Structure](week9/htmlStructure.png)
+
+For more information about HTML, visit https://www.w3schools.com/html/default.asp
+
+These tags are placed in a text file, with an html extension
+
+```html
+<html>
+    <head>
+        <title>My first webpage</title>
+    </head>
+    <body>
+        <h1>Wow</h1>
+        <p>
+            Creating a static webpage is pretty straightforward!
+        </p>
+    </body>
+</html>
+```
+
+Put that text in a file called index.html, then navigate to that directory and fire up Python's build-in web server by typing
+
+```bash
+cd location/of/file
+python3 -m http.server
+```
+
+Now, if someone can reach your computer, it will respond with that page. In your web browser, go to localhost:8000
+
+Index.html is the default name that is served up, but you can change the name
+
+**Be careful** with this, though, because other files could be accessed with this server
+
+localhost:8000/stars.py
+
+localhost:8000/htmlStructure.png
