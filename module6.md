@@ -16,6 +16,8 @@ Explain the basics of defining the functions
 * Return value
 * Example
 
+[YouTube - Socratica - Study Tips (5:44)](https://www.youtube.com/watch?v=q-16DPh_VWw&t=178s)
+
 # Test Information
 
 The test will be available during class on Thursday
@@ -44,3 +46,6 @@ What you should know how to:
 * Use if, elif, else statements
 * Convert object types
 
+[YouTube - Socratica - Test Taking Strategies (9:12)](https://www.youtube.com/watch?v=6w8CHIeYdi4) This is a little generic, but that means it can be helpful in your other classes as well
+
+# 

@@ -1,9 +1,26 @@
 # Module 10.1 ~ Functions
 
+[YouTube - Socratica - Feynman Technique (5:44)](https://www.youtube.com/watch?v=q-16DPh_VWw)
+
+Studying tips
+
+* Ask the 'right questions' (Yourself, as well as others)
+  * Varies by person
+  * Depends on what you're having troubles understanding (Dictionaries, Lists, Loops)
+  * Explain these topics to someone else. Topics that you can't explain are topics you need to spend more time on
+
+* Don't just stop when it works
+  * Your goal is not the functioning program, but rather the understanding
+  * These programs are tools we're using for you to learn
+* Seek additional challenges
+  * The programs that are assigned are likely not enough for everyone
+
+## Functions
+
 A function is a named sequence of instructions. To define a function:
 
 * Use the `def` keyword
-* Give the function a name - start with a lowercase letter
+* Give the function a name - lowercase (according to style guide, underscores or camelCase for multiple words)
 * Zero or more inputs, called parameters, go inside parentheses
 * End the line with a colon
 * A string called a docstring typically follows the definition line, giving a description of the function. This is used to auto-generate documentation
