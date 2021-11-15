@@ -1,5 +1,31 @@
-[YouTube - Socratica - PyDoc (6:33)](https://www.youtube.com/watch?v=URBSvqib0xw)
+Why do we use functions?
 
-[YouTube - Socratica - Unit Tests (8:48)](https://www.youtube.com/watch?v=1Lfv5tUGsn8)
+* Improving program readability
+* Modular program development
+* Avoid writing redundant code
 
-[YouTube - Socratica - Logging in Python (7:50)](https://www.youtube.com/watch?v=g8nQ90Hk328)
+Mathematical functions
+
+* In math, functions have a specific meaning
+* Use inputs, return output
+
+Calling functions in expressions
+
+* When a function has a return value, you can chain functions together
+
+```python
+def areaOfCircle(radius):
+    return 3.141592 * r ** 2
+
+print("The area of a circle with radius 3 is {}".format(areaOfCircle(3)))
+```
+
+Function stubs
+
+* Incremental development
+
+* `pass` keyword
+
+Functions with branches/loops
+
+Debuggers
