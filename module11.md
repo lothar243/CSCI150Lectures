@@ -23,3 +23,5 @@ Show examples 1 - 4
 * More complicated messages can be sent over a single wire by using serial communication
   * USB pinout - http://www.engineersgallery.com/wp-content/uploads/2016/01/usb-pinout.png
   * Running RGB light strips with a Raspberry Pi -  https://tutorials-raspberrypi.com/connect-control-raspberry-pi-ws2812-rgb-led-strips/
+
+Additional transistor video: https://www.youtube.com/watch?v=7ukDKVHnac4
